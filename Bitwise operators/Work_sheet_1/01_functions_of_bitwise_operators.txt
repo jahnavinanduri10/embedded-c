@@ -1,0 +1,17 @@
+AND -----> &  sets each bit to 1 if both bits are 1
+
+OR -----> |  sets each bit to 1 if at least one is 1
+
+XOR -----> ^ toggling
+
+NOT -----> ~ invert bits
+
+shift operations:
+left ----->  << shifts bits to left
+right ----->  >> shifts bits to right
+
+set   num |= (1 << n);
+clear num &= ~(1 << n);
+toggle num ^= (1 << n);
+
+
