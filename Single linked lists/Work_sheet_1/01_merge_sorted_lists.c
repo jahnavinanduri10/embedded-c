@@ -1,30 +1,90 @@
-typedef struct node
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Node
 {
     int data;
-    struct node *link;
-}Slist;
+    struct Node *next;
+};
 
-int sorted_merge(Slist **head1,Slist **head2)
-{
-    if (*head1 == NULL && *head2 == NULL)
-    {
-        return -1;
+struct Node* createNode(int data) {
+    struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
+    newNode->data = data;
+    newNode->next = NULL;
+    return newNode;
+}
+
+void insertEnd(struct Node **head, int data) {
+    struct Node *newNode = createNode(data);
+
+    if (*head == NULL) {
+        *head = newNode;
+        return;
     }
 
-    if (*head1 == NULL)
-    {
-        *head1 = *head2;
-        *head2 = NULL;
-    }
-    else if (*head2 != NULL)
-    {
+    struct Node *temp = *head;
+    while (temp->next)
+        temp = temp->next;
 
-        Slist *temp = *head1;
-        while (temp->link != NULL)
-        {
-            temp = temp->link;
+    temp->next = newNode;
+}
+
+void printList(struct Node *head) {
+    while (head) {
+        printf("%d -> ", head->data);
+        head = head->next;
+    }
+    printf("NULL\n");
+}
+
+struct Node* mergeSortedLists(struct Node *l1, struct Node *l2) {
+
+    struct Node dummy;
+    struct Node *tail = &dummy;
+    dummy.next = NULL;
+
+    while (l1 && l2) {
+        if (l1->data <= l2->data) {
+            tail->next = l1;
+            l1 = l1->next;
+        } else {
+            tail->next = l2;
+            l2 = l2->next;
         }
-        temp->link = *head2;
-        *head2 = NULL; 
+        tail = tail->next;
     }
+
+    if (l1)
+        tail->next = l1;
+    else
+        tail->next = l2;
+
+    return dummy.next;
+}
+
+int main() {
+    struct Node *list1 = NULL;
+    struct Node *list2 = NULL;
+    struct Node *mergedList = NULL;
+
+    insertEnd(&list1, 1);
+    insertEnd(&list1, 3);
+    insertEnd(&list1, 5);
+
+    insertEnd(&list2, 2);
+    insertEnd(&list2, 4);
+    insertEnd(&list2, 6);
+
+    printf("List 1: ");
+    printList(list1);
+
+    printf("List 2: ");
+    printList(list2);
+
+    mergedList = mergeSortedLists(list1, list2);
+
+    printf("Merged List: ");
+    printList(mergedList);
+
+    return 0;
 }
