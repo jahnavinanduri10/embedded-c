@@ -1,0 +1,3 @@
+Milk,2 litres,40
+Rice,1 kg,60
+Sugar,500 g,30
