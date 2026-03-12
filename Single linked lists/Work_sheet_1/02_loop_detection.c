@@ -1,3 +1,5 @@
+/*slow pointer and fast pointer collide if loop exists*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

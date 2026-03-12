@@ -1,3 +1,6 @@
+/*traverse through each node in two lists
+compare*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

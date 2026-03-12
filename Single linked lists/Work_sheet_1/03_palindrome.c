@@ -1,3 +1,8 @@
+/*slow and fast pointers
+slow points to mid 
+reverse the second half
+and check */
+
 #include <stdio.h>
 #include <stdlib.h>
 
