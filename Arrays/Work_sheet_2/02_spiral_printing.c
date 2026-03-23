@@ -1,3 +1,5 @@
+/*print the array elements in spiral pattern*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,14 @@
+/* Structure vs Union in Embedded Systems
+Goal
+Understand how structures and unions differ in terms of memory layout, access, and use in embedded systems, particularly in data interpretation and memory saving.
+Activity
+•	Define a structure and a union with three different data types (e.g., char, int, float).
+•	Print the size of each and compare.
+•	Write values to each member and observe the behavior.
+•	Map the union onto a byte buffer and visualize how different types share memory.
+•	Document a scenario where only one data type is valid at a time (e.g., packet command structure).
+Tip: Use sizeof() and printf() to track memory usage and value overlap*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

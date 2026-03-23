@@ -1,3 +1,5 @@
+/*rotate the array in 90 degree clockwise for k times*/
+
 #include <stdio.h>
 #include <stdlib.h>
 void rotation(int *arr[],int r,int c,int n)
@@ -66,43 +68,5 @@ int main()
     rotation(arr,r,c,n);
 
     for(int i = 0;i < r;i++)
-    {
         free(arr[i]);
-    }
 }
-
-
-
-
-
-
-    //  if(n > 0)
-    // {
-    //     if(r != c)// not a square matrix
-    //     {
-    //         int *b[r];
-    //         for(int i = 0;i < c;i++)
-    //             b[i] = malloc(sizeof(int) * r); 
-                
-    //         for(int i = 0;i < c;i++)
-    //         {
-    //             for(int j = 0;j < r;j++)
-    //                 *(*(b+i)+j) = *(*(arr+j)+i);
-    //         }
-
-    //     }
-    //     else
-    //     {
-    //         int *b[c];
-    //         for(int i = 0;i < c;i++)
-    //             b[i] = malloc(sizeof(int) * r);
-
-    //         for(int i = 0;i < c;i++)
-    //         {
-    //             for(int j = 0;j < r;j++)
-    //                 *(*(b+i)+j) = *(*(arr+j)+i);
-    //         }
-    //     }
-
-    //     rotation(arr,r,c,n-1);
-    // }

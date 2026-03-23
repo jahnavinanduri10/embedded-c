@@ -1,3 +1,13 @@
+/*Function Pointers in Structures
+Goal
+Learn how to include and use function pointers inside structures for callback mechanisms and dynamic behavior in embedded systems.
+Activity
+•	Define a structure containing function pointers.
+•	Initialize it with different functions and invoke them.
+•	Use this setup to simulate a hardware driver interface with different behavior implementations.
+•	Demonstrate dynamic assignment and execution of function pointers based on a condition or input.
+Tip: Use typedef for cleaner function pointer declarations.*/
+
 #include <stdio.h>
 
 typedef void (*fptr)(int);
