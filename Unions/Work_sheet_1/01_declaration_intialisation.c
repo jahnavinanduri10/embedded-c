@@ -1,3 +1,7 @@
+/*Union Declaration and Initialization
+Declare a union named Data with an int, a float, and a char array of size 20.
+Write a program to initialize and print each member, one after the other. Observe and explain the output.*/
+
 #include <stdio.h>
 #include <string.h>
 

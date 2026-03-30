@@ -1,3 +1,12 @@
+/*Log Session a Linked List with 3 Nodes
+Goal: Apply dynamic memory to build a simple linked list.
+Activity:
+•	Define a struct for a node with data and next.
+•	Use malloc to create 3 nodes dynamically.
+•	Link the nodes manually.
+•	Traverse and print the list.
+•	Free all nodes after traversal.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

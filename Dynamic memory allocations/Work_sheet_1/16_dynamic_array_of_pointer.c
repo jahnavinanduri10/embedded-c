@@ -1,3 +1,12 @@
+/*Dynamic Array of Pointers to Integers
+Goal: Work with array of pointers using malloc.
+Activity:
+•	Ask user for count.
+•	Allocate array of int* pointers.
+•	Use malloc to assign an integer for each pointer.
+•	Assign and print values.
+•	Free all integers and the array.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

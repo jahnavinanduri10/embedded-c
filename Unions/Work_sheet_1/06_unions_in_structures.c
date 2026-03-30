@@ -1,3 +1,8 @@
+/*Unions in Structures
+Log Session a structure Student with a union inside it that can hold either an int roll_number or a char id[10].
+Add a member char type to indicate which member is active.
+Write functions to initialize and display the data for both types of students.
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

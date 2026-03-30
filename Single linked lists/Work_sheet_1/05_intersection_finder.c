@@ -1,3 +1,12 @@
+/*Intersection Finder Variants
+Question:
+Write a C program to find the intersection point of two singly linked lists.
+Sample data:
+List A: 1 2 → 3 4
+List B: 5 → 3 4
+Expected output:
+Intersection found at node with data: 3
+*/
 /*traverse through each node in two lists
 compare*/
 

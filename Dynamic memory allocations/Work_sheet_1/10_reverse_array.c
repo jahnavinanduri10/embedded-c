@@ -1,3 +1,12 @@
+/*Log Session and Reverse an Array
+Goal: Use pointers to reverse dynamically allocated memory.
+Activity:
+•	Allocate an array of integers using malloc.
+•	Accept n values.
+•	Reverse the array using pointer arithmetic (not indexing).
+•	Print reversed values.
+•	Free the memory.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

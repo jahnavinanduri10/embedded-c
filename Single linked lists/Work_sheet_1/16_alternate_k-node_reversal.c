@@ -1,3 +1,12 @@
+/*Alternate K-Node Reversal Challenges
+Question:
+Write a C program to reverse alternate k nodes.
+Sample data:
+List: 1 2 3 4 5 6 7 8
+k = 2
+Expected output:
+Reversed: 2 1 3 4 6 5 7 8
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

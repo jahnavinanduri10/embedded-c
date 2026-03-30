@@ -1,3 +1,12 @@
+/*Tokenize String Dynamically
+Goal: Store each word of a sentence in dynamically allocated memory.
+Activity:
+•	Accept a sentence as input.
+•	Use strtok() to split it into words.
+•	Use malloc to copy each token into a new memory block.
+•	Store them in a pointer array.
+•	Print all words and free each block
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

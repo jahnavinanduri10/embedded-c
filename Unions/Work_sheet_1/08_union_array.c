@@ -1,3 +1,7 @@
+/*Union Array
+Declare an array of unions, each holding an int, a float, or a char.
+Write a program to assign values of different types to each element and display them. Observe any issues.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

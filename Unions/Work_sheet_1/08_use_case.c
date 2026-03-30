@@ -1,3 +1,6 @@
+/*Design a simple employee record system using a structure with a union that can store either salary (float) or hourly wage (float), depending on employee type.
+Add code to input and print details for a list of employees.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

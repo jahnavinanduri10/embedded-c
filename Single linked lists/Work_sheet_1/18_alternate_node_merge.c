@@ -1,3 +1,12 @@
+/*Alternate Node Merging Challenges
+Question:
+Write a C program to merge alternate nodes of two linked lists.
+Sample data:
+List1: 9 7 5
+List2: 10 8 6
+Expected output:
+Merged list: 9 10 7 8 5 6
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

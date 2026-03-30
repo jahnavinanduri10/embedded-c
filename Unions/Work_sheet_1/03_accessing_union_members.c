@@ -1,3 +1,7 @@
+/*Accessing Union Members
+Using the union from exercise 1, assign values to more than one member at a time and print all members.
+Observe which value is retained and explain why.
+*/
 #include <stdio.h>
 #include <string.h>
 

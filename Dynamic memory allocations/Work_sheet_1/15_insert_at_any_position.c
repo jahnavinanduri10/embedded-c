@@ -1,3 +1,13 @@
+/*: Insert Element at Any Position
+Goal: Modify dynamic array and shift elements.
+Activity:
+•	Allocate memory for an array.
+•	Accept n values.
+•	Ask user to insert a value at a specific position.
+•	Use realloc to increase size.
+•	Shift elements and insert new value.
+•	Print final array and free memory.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

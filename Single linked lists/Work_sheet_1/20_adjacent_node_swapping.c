@@ -1,3 +1,12 @@
+/*Adjacent Node Swapping Variants
+Question:
+Write a C program to swap every two adjacent nodes.
+Sample data:
+List: 1 2 3 4 5
+ 
+Expected output:
+Swapped list: 2 1 4 3 5
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

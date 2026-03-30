@@ -1,3 +1,11 @@
+/*Palindrome Check Variants
+Question:
+Write a C program to check if a singly linked list is a palindrome.
+Sample data:
+List: 1 2 2 1
+Expected output:
+Linked list is a palindrome.
+*/
 /*slow and fast pointers
 slow points to mid 
 reverse the second half

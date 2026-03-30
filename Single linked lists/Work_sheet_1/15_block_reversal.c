@@ -1,3 +1,13 @@
+/*Block Reversal Variants
+Question:
+Write a C program to reverse nodes in blocks of size k.
+Sample data:
+List: 1 2 3 4 5 6
+k = 3
+Expected output:
+Reversed: 3 2 1 6 5 4
+*/
+
 // Check whether k nodes are available
 // Reverse first k nodes
 // Recursively process the remaining list

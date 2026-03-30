@@ -1,3 +1,12 @@
+/*Merge Sorted Lists Challenges
+Question:
+Write a C program to merge two sorted singly linked lists into a single sorted linked list.
+Sample data:
+List 1: 1 3 5 7
+List 2: 2 4 6
+Expected output:
+Merged list: 1 2 3 4 5 6 7
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

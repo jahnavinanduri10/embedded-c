@@ -1,3 +1,13 @@
+/*: Reallocate an Array Dynamically
+Goal: Use realloc to extend an array as needed.
+Activity:
+•	Allocate memory for 2 integers.
+•	Ask the user for values.
+•	Then resize the array to 5 integers using realloc.
+•	Accept more values into the resized array.
+•	Print all values.
+•	Free the memory at the end.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

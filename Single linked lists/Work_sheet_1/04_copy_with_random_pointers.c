@@ -1,3 +1,12 @@
+/*Copy with Random Pointers Challenges
+Question:
+Write a C program to create a deep copy of a singly linked list where each node has a random pointer.
+Sample data:
+List: 1 2 3 5 7
+Random pointers: 1→3, 2→5, 3→7, 5→1, 7→3
+Expected output:
+New list with same data and random pointers correctly mapped.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

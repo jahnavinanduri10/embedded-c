@@ -1,3 +1,7 @@
+/*Nested Union
+Log Session a union called Number which contains an int and a nested union with a float and a char.
+Write code to assign and access values from both the outer and inner union members.
+*/
 #include <stdio.h>
 
 union Number{

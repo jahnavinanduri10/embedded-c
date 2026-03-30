@@ -1,3 +1,12 @@
+/*Linked List Addition Variants
+Question:
+Write a C program to add two numbers represented by linked lists.
+Sample data:
+List 1: 8 7 9 2
+List 2: 2 1 2 3
+Expected output:
+Result: 0 9 1 6 (carry handled)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

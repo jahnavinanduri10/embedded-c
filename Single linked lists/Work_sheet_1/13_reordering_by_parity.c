@@ -1,3 +1,11 @@
+/*. Reordering by Parity Challenges
+Question:
+Write a C program to place all even-numbered nodes after odd-numbered nodes.
+Sample data:
+List: 1 2 3 4 5 6
+Expected output:
+Reordered list: 1 3 5 2 4 6
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

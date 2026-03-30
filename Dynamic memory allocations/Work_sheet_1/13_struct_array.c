@@ -1,3 +1,12 @@
+/*Struct Array with Dynamic Allocation
+Goal: Allocate memory for array of structs.
+Activity:
+•	Define a struct (e.g., name and age).
+•	Ask user how many entries to store.
+•	Allocate memory using malloc.
+•	Accept values and display them.
+•	Free the memory.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,12 @@
+/*Nth Node from End Variants
+Question:
+Write a C program to retrieve the nth node from the end.
+Sample data:
+List: 1 3 5 11
+n = 3
+Expected output:
+Result: 3
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

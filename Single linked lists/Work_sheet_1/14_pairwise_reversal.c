@@ -1,3 +1,11 @@
+/*Pairwise Reversal Challenges
+Question:
+Write a C program to reverse nodes in pairs.
+Sample data:
+List: 1 2 3 4 5
+Expected output:
+Reversed in pairs: 2 1 4 3 5
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,12 @@
+/*Alternate Interleaving Challenges
+Question:
+Write a C program to interleave two lists alternatively.
+Sample data:
+List1: 1 3 5
+List2: 2 4 6
+Expected output:
+Result: 1 2 3 4 5 6
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,10 @@
+/*Write a C program to detect and remove a loop in a singly linked list.
+Sample data:
+List: 1 → 2 → 3 → 4 → 5 → (loop to 2)
+Expected output:
+Loop detected and removed.
+List after removal: 1 2 3 4 5
+*/
 /*slow pointer and fast pointer collide if loop exists*/
 
 #include <stdio.h>

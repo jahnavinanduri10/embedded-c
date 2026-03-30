@@ -1,3 +1,12 @@
+/*Halving the List Challenges
+Question:
+Write a C program to split a list into two halves.
+Sample data:
+List: 1 2 3 4 5 6
+Expected output:
+First half: 1 2 3
+Second half: 4 5 6
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

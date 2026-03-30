@@ -1,3 +1,12 @@
+/*Zero-Initialize an Integer Array
+Goal: Understand how calloc initializes memory.
+Activity:
+•	Ask the user for the number of elements.
+•	Allocate memory using calloc.
+•	Print the initial values (before user input).
+•	Assign values, then display them.
+•	Free the memory after use.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

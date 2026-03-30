@@ -1,3 +1,7 @@
+/*Structure Inside a Union
+Define a union that contains a structure (for example, struct { int x, y; }) and an int.
+Write a program to set and access the structure members through the union.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,13 @@
+/*Implement Custom strdup()
+Goal: Practice duplicating a string using dynamic memory.
+Activity:
+•	Log Session a function that takes a string as input.
+•	Allocate memory for a copy of the string.
+•	Copy character by character.
+•	Return the copied string.
+•	Call this function and display the result.
+•	Free the copied string.
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

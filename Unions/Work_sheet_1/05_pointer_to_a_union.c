@@ -1,3 +1,7 @@
+/*Pointer to a Union
+Write a program that defines a union called Sample with an int and a float.
+Declare a pointer to the union. Assign values using the pointer and print the results.
+*/
 #include <stdio.h>
 
 union Sample{

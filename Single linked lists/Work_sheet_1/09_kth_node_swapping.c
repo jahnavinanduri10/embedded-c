@@ -1,3 +1,13 @@
+/*Kth Node Swapping Variants
+Question:
+Write a C program to swap Kth node from beginning and end.
+Sample data:
+List: 1 2 3 4 5
+k = 2
+Expected output:
+Swapped list: 1 4 3 2 5
+*/
+
 // Count total number of nodes → n
 // kth node from start
 // kth node from end → (n - k + 1)th node

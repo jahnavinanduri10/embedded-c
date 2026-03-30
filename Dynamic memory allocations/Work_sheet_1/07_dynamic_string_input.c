@@ -1,3 +1,13 @@
+/*Dynamic String Input
+Goal: Handle strings with dynamic memory allocation.
+Activity:
+•	Ask the user to enter a string.
+•	Find its length using strlen.
+•	Allocate memory to store the string using malloc.
+•	Copy the string to the new memory.
+•	Print the copied string.
+•	Free the memory.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

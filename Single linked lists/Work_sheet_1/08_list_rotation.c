@@ -1,3 +1,12 @@
+/*List Rotation Challenges
+Question:
+Write a C program to rotate a linked list to the right by k places.
+Sample data:
+List: 1 3 4 7 9
+k = 2
+Expected output:
+Rotated list: 4 7 9 1 3
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
